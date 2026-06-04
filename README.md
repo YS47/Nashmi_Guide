@@ -41,7 +41,6 @@ A Flutter mobile application built as a final university project. The app helps 
 | Package | Version | Purpose |
 |---|---|---|
 | `google_fonts` | ^6.2.1 | Custom typography |
-| `url_launcher` | ^6.3.1 | Open Google Maps links |
 | `cupertino_icons` | ^1.0.8 | iOS icon set |
 
 ---
