@@ -90,10 +90,10 @@ flutter run
 ## Models Explanation
 
 ### `PlaceModel` (abstract)
-The base class for any place in the app. Defines shared fields: `id`, `name`, `city`, `imageUrl`, `assetImage`. Declares the abstract method `getDisplayInfo()` which subclasses must implement.
+The base class for any place in the app. Defines shared fields: `id`, `name`, `city`, `assetImage`. Declares the abstract method `getDisplayInfo()` which subclasses must implement.
 
 ### `DestinationModel` (extends PlaceModel)
-The main model. Adds `category`, `shortDescription`, `fullDescription`, `ticketPrice`, `bestTimeToVisit`, `activities` (List), `tips` (List), `mapsUrl`, and `isFeatured`. Overrides `getDisplayInfo()` to return a formatted summary string.
+The main model. Adds `category`, `shortDescription`, `fullDescription`, `ticketPrice`, `bestTimeToVisit`, `activities` (List), `tips` (List), and `isFeatured`. Overrides `getDisplayInfo()` to return a formatted summary string.
 
 ### `CategoryModel`
 Stores category data: `id`, `name`, `icon` (IconData), `description`, and `color`.
