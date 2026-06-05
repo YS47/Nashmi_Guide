@@ -103,7 +103,7 @@ class ProfileScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 16),
                         Text(
-                          'From the ancient rose-red cliffs of Petra to the lowest point on Earth at the Dead Sea, this app brings you detailed historical information, ticketing guidelines, travel advice, and interactive navigation maps for Jordan\'s top tourism destinations.',
+                          'From the ancient rose-red cliffs of Petra to the lowest point on Earth at the Dead Sea, this app brings you detailed historical information, ticketing guidelines, travel advice, and structured recommendations for Jordan\'s top tourism destinations.',
                           style: GoogleFonts.inter(
                             fontSize: 14,
                             color: const Color(0xFF333333),
@@ -133,12 +133,6 @@ class ProfileScreen extends StatelessWidget {
                           title: 'Ticketing & Pricing Info',
                           description:
                               'Quick access to entry ticket prices and practical tips for visitors.',
-                        ),
-                        _FeatureItem(
-                          icon: Icons.map_outlined,
-                          title: 'Map Integration',
-                          description:
-                              'Navigate directly to tourist destinations using Google Maps directions.',
                         ),
                         _FeatureItem(
                           icon: Icons.favorite_border,

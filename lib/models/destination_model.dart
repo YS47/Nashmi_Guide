@@ -13,14 +13,12 @@ class DestinationModel extends PlaceModel {
   final String bestTimeToVisit;
   final List<String> activities;
   final List<String> tips;
-  final String mapsUrl;
   final bool isFeatured;
 
   DestinationModel({
     required super.id,
     required super.name,
     required super.city,
-    required super.imageUrl,
     required super.assetImage,
     required this.category,
     required this.shortDescription,
@@ -29,7 +27,6 @@ class DestinationModel extends PlaceModel {
     required this.bestTimeToVisit,
     required this.activities,
     required this.tips,
-    required this.mapsUrl,
     this.isFeatured = false,
   });
 

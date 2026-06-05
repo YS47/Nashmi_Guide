@@ -13,8 +13,6 @@ class DestinationController {
       name: 'Petra',
       city: 'Ma\'an Governorate',
       category: 'Historical',
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG',
       assetImage: 'assets/images/petra.jpg',
       shortDescription:
           'The rose-red city carved into sandstone cliffs — one of the Seven Wonders of the World.',
@@ -38,7 +36,6 @@ class DestinationController {
         'A 2-day ticket gives far better value than a single day',
         'Hire a local guide to understand the history deeply',
       ],
-      mapsUrl: 'https://maps.app.goo.gl/petra',
       isFeatured: true,
     ),
 
@@ -48,8 +45,6 @@ class DestinationController {
       name: 'Jerash',
       city: 'Jerash Governorate',
       category: 'Historical',
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/b/be/Jerash_City.jpg',
       assetImage: 'assets/images/jerash.jpg',
       shortDescription:
           'One of the best-preserved Roman provincial cities in the world, with 6,500 years of continuous history.',
@@ -72,7 +67,6 @@ class DestinationController {
         'The site is hilly — wear good shoes',
         'Morning visits offer the best light for photography',
       ],
-      mapsUrl: 'https://maps.app.goo.gl/jerash',
       isFeatured: true,
     ),
 
@@ -82,8 +76,6 @@ class DestinationController {
       name: 'Amman Citadel',
       city: 'Amman',
       category: 'Historical',
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/6/6e/Amman_Citadel.jpg',
       assetImage: 'assets/images/amman_citadel.jpg',
       shortDescription:
           'Jebel al-Qal\'a — 7,000 years of layered history towering above the modern capital.',
@@ -105,7 +97,6 @@ class DestinationController {
         'The museum is included in the entry ticket price',
         'Wear layers — the hilltop can be windy even in summer',
       ],
-      mapsUrl: 'https://maps.app.goo.gl/amman-citadel',
       isFeatured: true,
     ),
 
@@ -115,8 +106,6 @@ class DestinationController {
       name: 'As-Salt',
       city: 'Balqa Governorate',
       category: 'Historical',
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/e/ed/AS-SALT_2.png',
       assetImage: 'assets/images/salt.jpg',
       shortDescription:
           'A UNESCO World Heritage city of 19th-century Ottoman architecture and multicultural coexistence.',
@@ -139,7 +128,6 @@ class DestinationController {
         'The city is a UNESCO site — treat the buildings with respect',
         'Ask locals about the stories behind each mansion family',
       ],
-      mapsUrl: 'https://maps.app.goo.gl/as-salt',
       isFeatured: false,
     ),
 
@@ -149,8 +137,6 @@ class DestinationController {
       name: 'Wadi Rum',
       city: 'Aqaba Governorate',
       category: 'Desert',
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/5/56/Mountain_in_Wadi_Rum%2C_Jordan.jpg',
       assetImage: 'assets/images/wadi_rum.jpg',
       shortDescription:
           'The Valley of the Moon — a vast, otherworldly desert of red sand and towering sandstone mountains.',
@@ -173,7 +159,6 @@ class DestinationController {
         'Negotiate jeep tour prices directly with drivers in the village',
         'The best sand dunes for photography are at Umm Ishrin',
       ],
-      mapsUrl: 'https://maps.app.goo.gl/wadi-rum',
       isFeatured: true,
     ),
 
@@ -183,8 +168,6 @@ class DestinationController {
       name: 'Dead Sea',
       city: 'Balqa / Madaba Governorate',
       category: 'Nature',
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/6/6f/Dead_Sea_beach_00.JPG',
       assetImage: 'assets/images/dead_sea.jpg',
       shortDescription:
           'The lowest point on Earth — float effortlessly in the world\'s saltiest lake and heal your skin with mineral mud.',
@@ -207,7 +190,6 @@ class DestinationController {
         'The public beach at Amman Beach is the most affordable option',
         'Sunset is a magical time to float as the light turns golden',
       ],
-      mapsUrl: 'https://maps.app.goo.gl/dead-sea-jordan',
       isFeatured: true,
     ),
 
@@ -217,8 +199,6 @@ class DestinationController {
       name: 'Hammam Al-Ma\'een',
       city: 'Madaba Governorate',
       category: 'Nature',
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/8/88/Ma%27in_Hot_Springs2.JPG',
       assetImage: 'assets/images/hammam_maaeen.jpg',
       shortDescription:
           'Dramatic thermal waterfalls cascading into natural hot spring pools among volcanic mountains.',
@@ -241,7 +221,6 @@ class DestinationController {
         'Book the resort spa in advance for treatment packages',
         'Do not visit with open wounds or skin infections',
       ],
-      mapsUrl: 'https://maps.app.goo.gl/hammam-maaeen',
       isFeatured: true,
     ),
 
@@ -251,8 +230,6 @@ class DestinationController {
       name: 'Mount Nebo',
       city: 'Madaba Governorate',
       category: 'Religious',
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/0/07/Mount_Nebo_BW_6.JPG',
       assetImage: 'assets/images/mount_nebo.jpg',
       shortDescription:
           'The biblical mountaintop where Moses saw the Promised Land — and a place of profound serenity.',
@@ -275,7 +252,6 @@ class DestinationController {
         'Sunrise visits offer golden light and almost no crowds',
         'The site is well maintained — allow 1–2 hours minimum',
       ],
-      mapsUrl: 'https://maps.app.goo.gl/mount-nebo',
       isFeatured: false,
     ),
 
@@ -285,8 +261,6 @@ class DestinationController {
       name: 'King Abdullah I Mosque',
       city: 'Amman',
       category: 'Religious',
-      imageUrl:
-          'https://upload.wikimedia.org/wikipedia/commons/e/e9/King_Abdullah_I_Mosque%2C_Amman.jpg',
       assetImage: 'assets/images/king_abdullah_mosque.jpg',
       shortDescription:
           'The iconic blue-domed landmark of Amman, welcoming visitors to experience Islamic architecture and peace.',
@@ -308,7 +282,6 @@ class DestinationController {
         'Photography is allowed, but be respectful and avoid taking photos of worshippers during prayers',
         'Combine with a walk to nearby Abdali or downtown Amman',
       ],
-      mapsUrl: 'https://maps.app.goo.gl/king-abdullah-mosque',
       isFeatured: false,
     ),
   ];

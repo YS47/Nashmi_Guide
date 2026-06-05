@@ -6,14 +6,12 @@ abstract class PlaceModel {
   final int id;
   final String name;
   final String city;
-  final String imageUrl;
   final String assetImage;
 
   PlaceModel({
     required this.id,
     required this.name,
     required this.city,
-    required this.imageUrl,
     required this.assetImage,
   });
 

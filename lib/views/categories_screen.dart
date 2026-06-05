@@ -29,8 +29,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
     final categories = widget.controller.getAllCategories();
     final filtered = _selectedCategory == null
         ? <DestinationModel>[]
-        : widget.controller
-            .getDestinationsByCategory(_selectedCategory!.name);
+        : widget.controller.getDestinationsByCategory(_selectedCategory!.name);
 
     return Scaffold(
       backgroundColor: const Color(0xFFF8F4EF),
@@ -118,7 +117,8 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                                   style: GoogleFonts.inter(
                                     fontSize: 12,
                                     fontWeight: FontWeight.bold,
-                                    color: isSelected ? Colors.white : cat.color,
+                                    color:
+                                        isSelected ? Colors.white : cat.color,
                                   ),
                                 ),
                               ),
